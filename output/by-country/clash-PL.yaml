@@ -15,22 +15,13 @@ proxies:
   servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 03 - xiaohe
-  type: vless
   server: site.teslamotor.site
   port: 20001
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 04 - xiaohe
+- name: 🇵🇱 PL 03 - xiaohe
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -39,7 +30,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 05 - xiaohe
+- name: 🇵🇱 PL 04 - xiaohe
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -47,6 +38,15 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇵🇱 PL 05 - xiaohe
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
 proxy-groups:
 - name: PROXIES
   type: select
